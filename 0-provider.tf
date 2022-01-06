@@ -13,9 +13,9 @@ terraform {
   }
   backend "azurerm" {
 
-    resource_group_name  = "azrgptfen0001"
-    storage_account_name = "azstasoan0100"
-    #resource_group_name  = "myrg-3"
+    #resource_group_name  = "azrgptfen0001"
+    storage_account_name = "nizamazstasoan0100"
+    resource_group_name  = "myrg-3"
     #storage_account_name = "azstasoan0101"
     container_name = "tfstate"
     key            = "terraform.tfstate"
